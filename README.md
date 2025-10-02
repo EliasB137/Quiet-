@@ -300,7 +300,8 @@ time_init(s)=1.54  time_search(s)=30.547
   
 [Baseline]  R=10 ticks=600  score=7.631  time(s)=545.341 
   
-  
+---
+
 #### Below we can see a picture of another classroom arrangment:
   
 <img width="454" height="452" alt="image" src="https://github.com/user-attachments/assets/5c4d2b13-9ee8-4a06-b113-7aea6068005f" />
