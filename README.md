@@ -58,7 +58,7 @@ Before the algorithim starts the code runs
 - opt-build-seats : which collects all seat coordinates (the positions of in-class students) and sort them deterministically (by y, then x).
 - opt-compute-seat-sensitivity :for each seat, compute a sensitivity value:
   - Neighbor density within radius-of-influence (weighted by beta-neigh).
-  - Teacher distance attenuation (weighted by alpha-dist).
+  - Teacher distance effect (weighted by alpha-dist).
   - Result: smaller sensitivity = safer seat.
 -opt-build-student-risks : set risk = 3/2/1 from student-type.
 
@@ -179,7 +179,7 @@ All the scores are calculted using the simulator with common random numbers (CRN
 1. **Order seats by “safety.”** ( as explained before )
 We compute a seat sensitivity (lower = safer) from:
 - Neighbor density in the contagion radius (weight beta-neigh).
-- Teacher distance attenuation (weight alpha-dist).
+- Teacher distance effect (weight alpha-dist).
 Seats are sorted safest to riskiest. Thishelps both the bounds and the search.
 
 2. **Per-seat admissible LB contributions.**
