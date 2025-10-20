@@ -104,8 +104,8 @@ turtles-own [probability-bother  close-window? close-door? close-teacher? bother
 students-own [distance-from-teacher bothering-in-radius spontaneous-bother-probability  contagion-bother-probability
                 teacher-proximity-bother-probability                   bother?
 								risk]
-
-panel-students-own [student-name student-type]
+panel-students-own []
+;; inherits student-name and student-type from turtles-own
 
 
 
