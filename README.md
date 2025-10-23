@@ -259,43 +259,43 @@ beta-neigh = 1.2
 Experimenting with different probabilites will result in different results.
 
 #### Below we can see an image of RoomA filed with 40 students of different types:
-<img width="497" height="470" alt="Screenshot 2025-10-01 142612" src="https://github.com/user-attachments/assets/cecf8751-257c-41c7-879e-8104e164e12f" />  
   
+![alt text](<Screenshot 2025-10-01 142612.png>)
+
 [Evaluate-Types] R=10 ticks=600  score=13.884
   
 #### I will show the results of running the class arrangement on the two algorithims that were listed before **Branch and bound** and **Greedy + 2 swap**:
   
 #### After running Greedy + 2 swap algorithim on the above class seating we get the below seating arrangment with the results listed below the image.
   
-<img width="444" height="417" alt="Screenshot 2025-10-01 150230" src="https://github.com/user-attachments/assets/3274c029-1d27-45ce-a5b9-4e74e32e89c1" />
+![alt text](<Screenshot 2025-10-01 150230.png>)
   
 [Baseline]  R=10 ticks=600  score=13.733  time(s)=895.471
   
 #### And after running the Branch and bound algorithim on the above class seating we get the below seaing arrangment with the reults listed below the image.
   
-<img width="451" height="418" alt="Screenshot 2025-10-01 144658" src="https://github.com/user-attachments/assets/793c1216-71b7-469b-a550-fd8e9b6839fb" />
+![alt text](<Screenshot 2025-10-01 144658.png>)
   
 [BnB]  R=10 ticks=600  score=13.693  visited=120  pruned=109764  time_total(s)=166.893  time_init(s)=2.745  time_search(s)=164.148
-[Evaluate-Types] R=10 ticks=600 
 
 ---
 
 #### Below we can see a picture of another classroom arrangment:
   
-<img width="442" height="409" alt="image" src="https://github.com/user-attachments/assets/c1243961-d986-4782-9c66-2a898944f796" />
+![alt text](<Screenshot 2025-10-01 194145.png>)
   
 [Evaluate-Types] R=10 ticks=600  score=7.691
   
 #### After applying **Branch and bound**:
   
-<img width="414" height="395" alt="image" src="https://github.com/user-attachments/assets/bbdea7ff-a2f6-4d23-a15c-07319770d28b" />
+![alt text](<Screenshot 2025-10-01 194241.png>)
   
 [BnB]  R=10 ticks=600  score=7.616  visited=40  pruned=7351  time_total(s)=32.087
 time_init(s)=1.54  time_search(s)=30.547
   
 #### After applying **Greedy + 2 Swap**:
   
-<img width="382" height="372" alt="image" src="https://github.com/user-attachments/assets/30427d74-d117-4506-b1a3-c5725c52f5f3" />
+![alt text](<Screenshot 2025-10-02 135918.png>)
 
   
 [Baseline]  R=10 ticks=600  score=7.631  time(s)=545.341 
@@ -304,20 +304,20 @@ time_init(s)=1.54  time_search(s)=30.547
 
 #### Below we can see a picture of another classroom arrangment:
   
-<img width="454" height="452" alt="image" src="https://github.com/user-attachments/assets/5c4d2b13-9ee8-4a06-b113-7aea6068005f" />
+![alt text](<Screenshot 2025-10-02 195139.png>)
   
 
 [Evaluate-Types] R=10 ticks=800  score=2.101
 
 
 #### After applying **Branch and bound**:
-<img width="410" height="430" alt="image" src="https://github.com/user-attachments/assets/8634c16a-a27a-4850-9a32-fd5d8df955a6" />
+![alt text](<Screenshot 2025-10-02 195225.png>)
   
 [BnB]  R=10 ticks=800  score=2.082  visited=3  pruned=11  time_total(s)=1.107  time_init(s)=0.449  time_search(s)=0.658
   
   
 #### After applying **Greedy + 2 Swap**:
-<img width="416" height="420" alt="image" src="https://github.com/user-attachments/assets/bd6a24e6-86f7-48c2-9ba3-14b9522a4f6c" />
+![alt text](<Screenshot 2025-10-02 195256.png>)
   
 [Baseline]  R=10 ticks=800  score=2.082  time(s)=2.753
 
